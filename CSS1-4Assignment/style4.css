@@ -1,0 +1,297 @@
+/* section 4 */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #ecf3f5;
+}
+
+.question4{
+    padding: 5px;
+}
+
+ul li{
+    list-style: none;
+    padding: 15px;
+    border: 0;
+    width: 150px;
+    text-align: center;
+    overflow: hidden;
+    background: #fff;
+}
+
+li a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.plus{
+    display: flex;
+    justify-content: space-around;
+    margin: auto; 
+    /* width: 100vw;
+    height: 100vh; */
+}
+
+.all{
+    padding-top: 100px;
+    flex-basis: 31%;
+    box-sizing: border-box;
+}
+
+
+.center{
+    width: 400px;
+    height: 400;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.center img{
+    width: 77.33px;
+    height: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.center h1{
+    width: 268px;
+    height: 50px;
+    top: 335px;
+}
+
+.center p{
+    width: 460px;
+    height: 75px;
+    top: 405px;
+    line-height: 25px;
+}
+
+/* form */
+.all form{
+    box-sizing: border-box;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    box-shadow: #d8e9ee;
+    border-radius: 3px;
+}
+
+form{
+    display: grid;
+    width: 400px;
+    height: 560px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10;
+}
+.slash{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.spurr{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+#gender{
+    width: 300;
+    height: 50;
+}
+
+#activity-level{
+    width: 700; 
+}
+
+.end .one{
+    padding: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: left;
+}
+input{
+    width: 300;
+    height: 50;
+    border: 1px solid #d8e9ee;
+}
+
+select{
+    width: 350;
+    height: 50;
+    border: 1px solid #d8e9ee;
+}
+
+.one{
+    padding-right: 40px;
+}
+
+.hold{
+    width: 700;
+}
+
+/* .last{
+    align-items: center;
+    justify-content: center;
+} */
+
+.last{
+    padding: 10px;
+}
+
+button{
+    width: 700;
+    height: 50;
+    background: #2EC4B6;
+    border: #2EC4B6;
+}
+
+.last span{
+    color: #2EC4B6;
+}
+
+.end i{
+    position: relative;
+    top: -35px;
+    left: 650px;
+    color: #7f8d94;
+}
+
+.spurr i{
+    position: absolute;
+    top: 140px;
+    right: 38px;
+    color: #7f8d94;
+}
+
+@media(max-width: 1100px){
+    .question4{
+        width: 50%;
+        position: absolute;
+    }
+    .plus{
+        display: grid;
+        align-items: center;
+    }
+    
+    .center{
+        max-width: 50%;
+        height: 200;
+        padding: 10px;
+    }
+
+    .all{
+        display: grid;
+        flex-direction: column;
+        padding: 1%;
+        align-items: center;
+        /* position: absolute; */
+    }
+
+    .all{
+        padding: 20px;
+    }
+
+    .center img{
+        width: 77.33px;
+        height: 80px;
+        padding-bottom: 20px;
+        padding-top: 0px;
+    }
+
+    .all form{
+        border-radius: 3px;
+        width: 400;
+        height: 800;
+    }
+
+    .slash{
+        display: grid;
+        justify-content: center;
+        padding: 10px;
+    }
+    
+    .spurr{
+        display: grid;
+        padding: 10px;
+        justify-content: center;
+    }
+    
+    #gender{
+        width: 300;
+        height: 50;
+    }
+    
+    #activity-level{
+        width: 700; 
+    }
+
+    .one{
+        padding-right: 40px;
+    }
+    .two{
+        padding-right: 40px;
+        padding-top: 20px;
+    }
+
+    .end{
+        display: grid;
+        justify-content: center;
+        padding-right: 20px;
+    }
+    .one .end {
+        display: grid;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    #activity-level{
+        width: 300; 
+    }
+    
+    .hold{
+        width: 300;
+    }
+
+    .end i{
+        top: 5px;
+        left: -35px;
+        color: #7f8d94;
+    }
+    
+    .spurr i{ 
+        top: 310px;
+        right: 90px;
+        color: #7f8d94;
+    }
+
+    /* .last{
+        padding: 10px;
+    } */
+    
+    button{
+        width: 400;
+        height: 50;
+        background: #2EC4B6;
+        border: #2EC4B6;
+    }
+    
+    .last span{
+        color: #2EC4B6;
+    }
+
+    body{
+        background: #ecf3f5;
+        width: 100%;
+        height: 100%;
+    }
+
+}
